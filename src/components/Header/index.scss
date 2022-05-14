@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 0;
+  margin-bottom: 35px;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    margin-right: 20px;
+
+    span {
+      margin-right: 12px;
+    }
+  }
+
+  &__balance {
+    display: flex;
+    align-items: center;
+
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      margin-left: 10px;
+
+      svg {
+        width: 12px;
+        height: 12px;
+        fill: #fdfdff;
+      }
+    }
+
+    .balance-name {
+      @media (max-width: 576px) {
+        display: none;
+      }
+    }
+
+    .balance {
+      margin: 0 5px;
+    }
+
+  }
+}

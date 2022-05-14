@@ -1,0 +1,44 @@
+.select {
+  position: relative;
+
+  &__current {
+    cursor: pointer;
+    padding: 5px;
+    span {
+      margin-left: 5px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 100;
+    background: #fff;
+    top: 35px;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px;
+    padding: 10px;
+  }
+  
+  &__option {
+    font-family: 'Inconsolata', monospace;
+    border: none;
+    background: none;
+    padding: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.3);
+    text-align: left;
+    cursor: pointer;
+    transition: border-color 0.3s;
+
+    &:hover {
+      transition: border-color 0.3s;
+      border-color: #000;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.list {
+  margin-right: 50px;
+  animation: fadeInLeft 1s;
+  
+  @media (max-width: (768px)) {
+    margin-right: 20px;
+    order: 1;
+  }
+
+
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 23px;
+    animation: fadeIn 1s;
+  }
+}

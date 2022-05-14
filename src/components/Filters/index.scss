@@ -1,0 +1,70 @@
+.filters {
+  margin-bottom: 30px;
+}
+
+.form {
+
+  &__header {
+    display: flex;
+    margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  &__sort {
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    margin-right: 15px;
+    font-weight: 500;
+    padding: 5px;
+    cursor: pointer;
+
+    @media (max-width: 768px) {
+      margin-bottom: 10px;
+    }
+
+    span {
+      margin-left: 6px;
+    }
+  }
+
+  &__select {
+    .react-select-container {
+      border: none;
+    }
+  }
+
+  &__search {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 0px rgba(204, 204, 204, 0.3);
+    transition: box-shadow 0.3s;
+    
+    button {
+      border: none;
+      background: none;
+      padding: 3px;
+      cursor: pointer;
+      margin-right: 3px;
+    }
+    
+    input {
+      width: 100%;
+      border: none;
+      background: #FFFFFF;
+      outline: rgba(204, 204, 204, 0.3);
+      padding: 7px;
+    }
+
+    &:hover {
+      transition: box-shadow 0.3s;
+      box-shadow: 0px 1px 0px #000;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.balance__form {
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  input {
+    border: none;
+    margin-bottom: 40px;
+    padding: 10px;
+    outline: none;
+    border-bottom: 1px solid #c6c5b9;
+    transition: border-color 0.3s;
+
+    &::placeholder {
+      font-family: 'Inconsolata', monospace;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    &:hover,&:focus {
+      transition: border-color 0.3s;
+      border-color: #393d3f;
+    }   
+  }
+
+  button {
+    display: inline-block;
+    padding: 5px 10px;
+  }
+}
