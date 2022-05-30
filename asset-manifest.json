@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/spherum-fe-task/static/css/main.3f0e3b66.css",
+    "main.js": "/spherum-fe-task/static/js/main.2c147dea.js",
+    "static/js/787.b3cb9939.chunk.js": "/spherum-fe-task/static/js/787.b3cb9939.chunk.js",
+    "static/media/cart.svg": "/spherum-fe-task/static/media/cart.0678f512249ce16e030b6e3c0ee4882e.svg",
+    "static/media/book.svg": "/spherum-fe-task/static/media/book.bbaa89f0d4d8930b40ce98d85a03308b.svg",
+    "index.html": "/spherum-fe-task/index.html",
+    "static/media/sort.svg": "/spherum-fe-task/static/media/sort.57a495f2fdd0ba4876c7aa4b9e49e635.svg",
+    "static/media/plus.svg": "/spherum-fe-task/static/media/plus.d2c8885bfe6baa9032c02191932ada89.svg",
+    "static/media/search.svg": "/spherum-fe-task/static/media/search.ba7090f34e41480795d209dd3d58214a.svg",
+    "static/media/delete.svg": "/spherum-fe-task/static/media/delete.92a647ac6108a6625ced057f52f3dfad.svg",
+    "static/media/arrow-down.svg": "/spherum-fe-task/static/media/arrow-down.d376a270fa1f92f1379dd41e0879a232.svg",
+    "main.3f0e3b66.css.map": "/spherum-fe-task/static/css/main.3f0e3b66.css.map",
+    "main.2c147dea.js.map": "/spherum-fe-task/static/js/main.2c147dea.js.map",
+    "787.b3cb9939.chunk.js.map": "/spherum-fe-task/static/js/787.b3cb9939.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f0e3b66.css",
+    "static/js/main.2c147dea.js"
+  ]
+}
